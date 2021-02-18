@@ -1,8 +1,11 @@
-//⦁	დაწერეთ კოდი რომელიც აიღებს head ელემენტს.
+// 1.1	დაწერეთ კოდი რომელიც აიღებს head ელემენტს
 console.log(document.head);
+alert('head ელემენტი:\n\n'+document.head);
 
-//⦁	დაწერეთ კოდი რომელიც აიღებს ul ელემენტს.
-console.log(document.getElementsByTagName('ul'));
+// 1.2	დაწერეთ კოდი რომელიც აიღებს ul ელემენტს
+            console.log(document.getElementsByTagName('ul')[0]);
+alert('ul ელემენტი:\n\n'+document.getElementsByTagName('ul')[0]);
 
-//⦁	დაწერეთ კოდი რომელიც აიღებს მეორე li ელემენტს.
-console.log(document.getElementsByTagName('li')[1]);
+// 1.3	დაწერეთ კოდი რომელიც აიღებს მეორე li ელემენტს
+                console.log(document.getElementsByTagName('li')[1]);
+alert('მეორე li ელემენტ:\n\n'+document.getElementsByTagName('li')[1]);
